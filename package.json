@@ -1,0 +1,25 @@
+{
+  "name": "calc-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "npx tsx  --watch src",
+    "build": "npx tsc",
+    "clear": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "consola": "^3.2.3",
+    "node": "^23.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4"
+  }
+}
