@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "run:start": "npx tsx src",
+    "run:dev": "npx tsx  --watch src",
     "start": "node ./dist/index.js",
-    "dev": "npx tsx  --watch src",
     "build": "npx tsc",
     "clear": "rm -rf dist"
   },
